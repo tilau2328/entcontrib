@@ -215,7 +215,7 @@ func goPackageName(genType *gen.Type) string {
 	if msgAnnot, err := extractMessageAnnotation(genType); err != nil {
 		return ""
 	} else if msgAnnot.GoPackage != "" {
-		return msgAnnot.Package
+		return msgAnnot.GoPackage
 	}
 	return ""
 }

@@ -23,9 +23,9 @@ import (
 	"io"
 	"strconv"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todofed/ent/category"
-	"entgo.io/contrib/entgql/internal/todofed/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/todo"
 	"entgo.io/ent/dialect/sql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/errcode"

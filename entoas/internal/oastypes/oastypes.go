@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
-	"entgo.io/contrib/entoas/internal/oastypes/schema"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/oastypes"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/schema"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"

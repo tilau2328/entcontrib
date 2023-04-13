@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/verysecret"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/verysecret"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

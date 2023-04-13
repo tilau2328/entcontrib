@@ -19,11 +19,11 @@ package category
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema/bigintgql"
 )
 
 // ID filters vertices based on their ID field.

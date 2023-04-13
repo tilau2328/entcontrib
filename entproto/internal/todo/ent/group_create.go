@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/group"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/group"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/user"
 )
 
 // GroupCreate is the builder for creating a Group entity.

@@ -5,9 +5,9 @@ package oastypes
 import (
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/oastypes/schema"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/schema"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/enttest"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )

@@ -19,8 +19,8 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/group"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/predicate"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/group"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

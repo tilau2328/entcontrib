@@ -19,15 +19,15 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/group"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/verysecret"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/billproduct"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/friendship"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/group"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/schema"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/user"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/verysecret"
 	"github.com/google/uuid"
 )
 

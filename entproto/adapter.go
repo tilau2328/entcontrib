@@ -119,7 +119,7 @@ func (a *Adapter) parse() error {
 		}
 
 		if _, ok := protoPackages[protoPkg]; !ok {
-			goPkg := a.goPackageName(protoPkg)
+			goPkg := a.goPackageName(genType, protoPkg)
 			protoPackages[protoPkg] = &descriptorpb.FileDescriptorProto{
 				Name:    relFileName(protoPkg),
 				Package: &protoPkg,
@@ -202,11 +202,22 @@ func (a *Adapter) parse() error {
 	return nil
 }
 
-func (a *Adapter) goPackageName(protoPkgName string) string {
-	// TODO(rotemtam): make this configurable from an annotation
+func (a *Adapter) goPackageName(genType *gen.Type, protoPkgName string) string {
+	if goPath := goPackageName(genType); goPath != "" {
+		return goPath
+	}
 	entBase := a.graph.Config.Package
 	slashed := strings.ReplaceAll(protoPkgName, ".", "/")
 	return path.Join(entBase, "proto", slashed)
+}
+
+func goPackageName(genType *gen.Type) string {
+	if msgAnnot, err := extractMessageAnnotation(genType); err != nil {
+		return ""
+	} else if msgAnnot.GoPackage != "" {
+		return msgAnnot.Package
+	}
+	return ""
 }
 
 // GetFileDescriptor returns the proto file descriptor containing the transformed proto message descriptor for

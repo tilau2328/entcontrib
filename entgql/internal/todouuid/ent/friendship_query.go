@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/friendship"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

@@ -19,12 +19,12 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todo/ent/group"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/friendship"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/group"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/user"
 	"github.com/google/uuid"
 )
 

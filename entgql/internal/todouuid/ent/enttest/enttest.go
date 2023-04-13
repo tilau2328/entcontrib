@@ -19,12 +19,12 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entgql/internal/todouuid/ent/runtime"
+	_ "github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/runtime"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/migrate"
 	"entgo.io/ent/dialect/sql/schema"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/migrate"
 )
 
 type (

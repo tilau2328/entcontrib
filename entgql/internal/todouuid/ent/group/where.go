@@ -17,10 +17,10 @@
 package group
 
 import (
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

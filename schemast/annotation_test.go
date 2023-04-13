@@ -20,10 +20,10 @@ import (
 	"go/token"
 	"testing"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/schema"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entproto"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

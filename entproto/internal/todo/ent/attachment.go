@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/attachment"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/user"
 )
 
 // Attachment is the model entity for the Attachment schema.

@@ -3,10 +3,10 @@
 package image
 
 import (
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

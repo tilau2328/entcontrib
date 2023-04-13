@@ -19,9 +19,9 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
 	"github.com/google/uuid"
 )
 

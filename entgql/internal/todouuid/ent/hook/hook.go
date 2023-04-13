@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent"
 )
 
 // The BillProductFunc type is an adapter to allow the use of ordinary

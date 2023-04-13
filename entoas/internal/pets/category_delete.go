@@ -5,8 +5,8 @@ package pets
 import (
 	"context"
 
-	"entgo.io/contrib/entoas/internal/pets/category"
-	"entgo.io/contrib/entoas/internal/pets/predicate"
+	"github.com/tilau2328/entcontrib/entoas/internal/pets/category"
+	"github.com/tilau2328/entcontrib/entoas/internal/pets/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

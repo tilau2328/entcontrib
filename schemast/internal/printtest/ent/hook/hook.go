@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent"
+	"github.com/tilau2328/entcontrib/schemast/internal/printtest/ent"
 )
 
 // The MessageFunc type is an adapter to allow the use of ordinary

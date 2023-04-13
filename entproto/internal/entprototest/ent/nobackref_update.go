@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/nobackref"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/image"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/nobackref"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // NoBackrefUpdate is the builder for updating NoBackref entities.

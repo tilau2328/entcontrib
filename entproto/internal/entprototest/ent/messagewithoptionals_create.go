@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithoptionals"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/messagewithoptionals"
 )
 
 // MessageWithOptionalsCreate is the builder for creating a MessageWithOptionals entity.

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
-	"entgo.io/contrib/entoas/internal/oastypes/predicate"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/oastypes"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

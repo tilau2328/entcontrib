@@ -20,10 +20,10 @@ package main
 import (
 	"log"
 
-	"entgo.io/contrib/entoas"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 	"github.com/ogen-go/ogen"
+	"github.com/tilau2328/entcontrib/entoas"
 )
 
 func main() {

@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todo/ent/verysecret"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/customstruct"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/verysecret"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

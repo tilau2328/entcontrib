@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent/todo"
 )
 
 func (r *mutationResolver) CreateCategory(ctx context.Context, input ent.CreateCategoryInput) (*ent.Category, error) {

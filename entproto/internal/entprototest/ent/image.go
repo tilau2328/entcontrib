@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/image"
 )
 
 // Image is the model entity for the Image schema.

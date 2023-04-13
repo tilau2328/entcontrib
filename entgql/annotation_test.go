@@ -17,8 +17,8 @@ package entgql_test
 import (
 	"testing"
 
-	"entgo.io/contrib/entgql"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entgql"
 )
 
 func TestAnnotation(t *testing.T) {

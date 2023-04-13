@@ -12,39 +12,39 @@ resolver:
   dir: .
 
 autobind:
-  - entgo.io/contrib/entgql/internal/todogotype/ent
+  - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent
   # Auto-bind the generated `Status` enum to GraphQL.
-  - entgo.io/contrib/entgql/internal/todogotype/ent/todo
-  - entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct
+  - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/todo
+  - github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/customstruct
 
 models:
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID
-      - entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql.BigInt
-      - entgo.io/contrib/entgql/internal/todogotype/ent/schema/uintgql.Uint64
+      - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema/bigintgql.BigInt
+      - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema/uintgql.Uint64
   Uint64:
     model:
       - github.com/99designs/gqlgen/graphql.Uint64
   Duration:
     model:
-      - entgo.io/contrib/entgql/internal/todo/ent/schema/durationgql.Duration
+      - github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/durationgql.Duration
   Node:
     model:
-      - entgo.io/contrib/entgql/internal/todogotype/ent.Noder
+      - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent.Noder
   # Custom mapping from GraphQL `CategoryStatus`
   # to the generated `category.Status` enum type.
   CategoryStatus:
     model:
-      - entgo.io/contrib/entgql/internal/todogotype/ent/category.Status
+      - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/category.Status
   # Custom mapping from GraphQL `CategoryConfig` and
   # `CategoryConfigInput` to `schematype.CategoryConfig`.
   CategoryConfig:
     model:
-      - entgo.io/contrib/entgql/internal/todo/ent/schema/schematype.CategoryConfig
+      - github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/schematype.CategoryConfig
   CategoryConfigInput:
     model:
-      - entgo.io/contrib/entgql/internal/todo/ent/schema/schematype.CategoryConfig
+      - github.com/tilau2328/entcontrib/entgql/internal/todo/ent/schema/schematype.CategoryConfig
   BigInt:
     model:
-      - entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql.BigInt
+      - github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema/bigintgql.BigInt

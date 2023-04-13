@@ -10,10 +10,10 @@ package main
 import (
 	"log"
 
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entgql"
 )
 
 func main() {

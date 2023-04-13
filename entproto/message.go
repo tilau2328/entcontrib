@@ -54,10 +54,16 @@ func PackageName(pkg string) MessageOption {
 		msg.Package = pkg
 	}
 }
+func GoPackage(pkg string) MessageOption {
+	return func(msg *message) {
+		msg.GoPackage = pkg
+	}
+}
 
 type message struct {
-	Generate bool
-	Package  string
+	Generate  bool
+	GoPackage string
+	Package   string
 }
 
 func (m message) Name() string {

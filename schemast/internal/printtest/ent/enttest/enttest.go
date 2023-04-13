@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent"
+	"github.com/tilau2328/entcontrib/schemast/internal/printtest/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/schemast/internal/printtest/ent/runtime"
+	_ "github.com/tilau2328/entcontrib/schemast/internal/printtest/ent/runtime"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/migrate"
 	"entgo.io/ent/dialect/sql/schema"
+	"github.com/tilau2328/entcontrib/schemast/internal/printtest/ent/migrate"
 )
 
 type (

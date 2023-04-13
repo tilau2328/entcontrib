@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/todo"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/user"
 )
 
 // TodoCreate is the builder for creating a Todo entity.

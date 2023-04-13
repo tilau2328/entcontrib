@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
-	"entgo.io/contrib/entproto/internal/todo/ent/multiwordschema"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/enttest"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/multiwordschema"
 )
 
 func TestMultiWordSchemaService_Get(t *testing.T) {

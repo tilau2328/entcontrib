@@ -17,10 +17,10 @@
 package user
 
 import (
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 const (

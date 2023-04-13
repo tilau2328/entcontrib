@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/image"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/user"
 )
 
 // ImageQuery is the builder for querying Image entities.

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withnilfields"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withnilfields"
 )
 
 // WithNilFields is the model entity for the WithNilFields schema.

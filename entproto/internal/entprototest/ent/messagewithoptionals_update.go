@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithoptionals"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/messagewithoptionals"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // MessageWithOptionalsUpdate is the builder for updating MessageWithOptionals entities.

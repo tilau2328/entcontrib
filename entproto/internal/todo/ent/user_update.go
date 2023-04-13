@@ -7,18 +7,18 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/group"
-	"entgo.io/contrib/entproto/internal/todo/ent/pet"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/internal/todo/ent/schema"
-	"entgo.io/contrib/entproto/internal/todo/ent/skipedgeexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/dialect/sql/sqljson"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/attachment"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/group"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/pet"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/predicate"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/schema"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/skipedgeexample"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/user"
 )
 
 // UserUpdate is the builder for updating User entities.

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"

@@ -5,9 +5,9 @@ package validmessage
 import (
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

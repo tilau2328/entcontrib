@@ -20,12 +20,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"entgo.io/contrib/entoas"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
 	"github.com/ogen-go/ogen"
+	"github.com/tilau2328/entcontrib/entoas"
 )
 
 // OASTypes holds the schema definition for the OASTypes entity.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entoas/internal/pets/user"
+	"github.com/tilau2328/entcontrib/entoas/internal/pets/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

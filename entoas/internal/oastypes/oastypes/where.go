@@ -5,10 +5,10 @@ package oastypes
 import (
 	"time"
 
-	"entgo.io/contrib/entoas/internal/oastypes/predicate"
-	"entgo.io/contrib/entoas/internal/oastypes/schema"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/predicate"
+	"github.com/tilau2328/entcontrib/entoas/internal/oastypes/schema"
 )
 
 // ID filters vertices based on their ID field.

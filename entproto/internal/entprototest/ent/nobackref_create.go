@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/nobackref"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/image"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/nobackref"
 )
 
 // NoBackrefCreate is the builder for creating a NoBackref entity.

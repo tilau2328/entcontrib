@@ -21,9 +21,9 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent"
 )
 
 func (r *queryResolver) Node(ctx context.Context, id string) (ent.Noder, error) {

@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/migrate"
 	"entgo.io/ent"
+	"github.com/tilau2328/entcontrib/schemast/internal/loadtest/ent/migrate"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/message"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
+	"github.com/tilau2328/entcontrib/schemast/internal/loadtest/ent/message"
 )
 
 // Client is the client that holds all ent builders.

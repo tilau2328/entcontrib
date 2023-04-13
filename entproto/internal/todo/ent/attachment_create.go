@@ -6,11 +6,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/attachment"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/user"
 )
 
 // AttachmentCreate is the builder for creating a Attachment entity.

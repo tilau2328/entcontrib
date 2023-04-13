@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithoptionals"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/messagewithoptionals"
 )
 
 // MessageWithOptionals is the model entity for the MessageWithOptionals schema.

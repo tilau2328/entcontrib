@@ -21,8 +21,8 @@ import (
 	"context"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
 )
 
 func (r *mutationResolver) CreateCategory(ctx context.Context, input ent.CreateCategoryInput) (*ent.Category, error) {

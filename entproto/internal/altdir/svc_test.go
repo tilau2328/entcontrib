@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"entgo.io/contrib/entproto/internal/altdir/ent/enttest"
-	"entgo.io/contrib/entproto/internal/altdir/ent/v1/api/entpb"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entproto/internal/altdir/ent/enttest"
+	"github.com/tilau2328/entcontrib/entproto/internal/altdir/ent/v1/api/entpb"
 )
 
 func TestService(t *testing.T) {

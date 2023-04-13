@@ -1,4 +1,4 @@
-module entgo.io/contrib
+module github.com/tilau2328/entcontrib
 
 go 1.18
 

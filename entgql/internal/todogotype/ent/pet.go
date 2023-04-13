@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/pet"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/uintgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/pet"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema/uintgql"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

@@ -21,10 +21,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todouuid/ent"
 )
 
 func (r *queryResolver) Node(ctx context.Context, id uuid.UUID) (ent.Noder, error) {

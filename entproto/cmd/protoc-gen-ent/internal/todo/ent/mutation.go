@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/file"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
-	"entgo.io/contrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/tilau2328/entcontrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/attachment"
+	"github.com/tilau2328/entcontrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/file"
+	"github.com/tilau2328/entcontrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/predicate"
+	"github.com/tilau2328/entcontrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/task"
+	"github.com/tilau2328/entcontrib/entproto/cmd/protoc-gen-ent/internal/todo/ent/user"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent"
 )
 
 func (r *mutationResolver) CreateCategory(ctx context.Context, input ent.CreateCategoryInput) (*ent.Category, error) {

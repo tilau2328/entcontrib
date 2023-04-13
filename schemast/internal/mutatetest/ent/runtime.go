@@ -3,8 +3,8 @@
 package ent
 
 import (
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/schema"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withmodifiedfield"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/schema"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withmodifiedfield"
 )
 
 // The init function reads all schema descriptors with runtime code

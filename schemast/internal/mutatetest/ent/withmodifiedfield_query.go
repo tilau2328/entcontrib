@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/predicate"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/user"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withmodifiedfield"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/predicate"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/user"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withmodifiedfield"
 )
 
 // WithModifiedFieldQuery is the builder for querying WithModifiedField entities.

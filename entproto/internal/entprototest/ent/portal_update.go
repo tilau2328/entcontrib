@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/category"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/portal"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/category"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/portal"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
 )
 
 // PortalUpdate is the builder for updating Portal entities.

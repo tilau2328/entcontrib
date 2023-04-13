@@ -5,7 +5,7 @@ package todopulid
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 // UpdateFriendshipInput is used for update Friendship object.

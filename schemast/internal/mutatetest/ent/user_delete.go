@@ -5,11 +5,11 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/predicate"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/predicate"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/user"
 )
 
 // UserDelete is the builder for deleting a User entity.

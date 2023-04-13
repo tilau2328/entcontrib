@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todofed/ent"
-	"entgo.io/contrib/entgql/internal/todofed/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todofed/ent/todo"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
 	"github.com/99designs/gqlgen/plugin/federation/fedruntime"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/schema/schematype"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/todo"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )

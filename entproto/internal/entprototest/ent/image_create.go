@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/image"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/user"
 )
 
 // ImageCreate is the builder for creating a Image entity.

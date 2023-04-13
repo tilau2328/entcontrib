@@ -20,8 +20,8 @@ package todo
 import (
 	"context"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent"
 )
 
 func (r *queryResolver) Node(ctx context.Context, id int) (ent.Noder, error) {

@@ -9,14 +9,14 @@ import (
 	"reflect"
 	"sync"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/user"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withfields"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withmodifiedfield"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withnilfields"
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withoutfields"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/user"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withfields"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withmodifiedfield"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withnilfields"
+	"github.com/tilau2328/entcontrib/schemast/internal/mutatetest/ent/withoutfields"
 )
 
 // ent aliases to avoid import conflicts in user's code.

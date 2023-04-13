@@ -5,11 +5,11 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/validmessage"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/validmessage"
 )
 
 // ValidMessageDelete is the builder for deleting a ValidMessage entity.

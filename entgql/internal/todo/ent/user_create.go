@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todo/ent/group"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/friendship"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/group"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"

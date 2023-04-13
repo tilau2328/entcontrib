@@ -17,10 +17,10 @@ package entoas
 import (
 	"encoding/json"
 
-	"entgo.io/contrib/entoas/serialization"
 	"entgo.io/ent/entc/gen"
 	"entgo.io/ent/schema"
 	"github.com/ogen-go/ogen"
+	"github.com/tilau2328/entcontrib/entoas/serialization"
 )
 
 type (

@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/schemast/internal/printtest/ent/message"
-	"entgo.io/contrib/schemast/internal/printtest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/schemast/internal/printtest/ent/message"
+	"github.com/tilau2328/entcontrib/schemast/internal/printtest/ent/predicate"
 )
 
 // MessageUpdate is the builder for updating Message entities.

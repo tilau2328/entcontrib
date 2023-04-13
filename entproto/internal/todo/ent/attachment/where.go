@@ -3,10 +3,10 @@
 package attachment
 
 import (
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

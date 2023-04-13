@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent/category"
-	"entgo.io/contrib/entgql/internal/todofed/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todofed/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/schema/schematype"
+	"github.com/tilau2328/entcontrib/entgql/internal/todofed/ent/todo"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

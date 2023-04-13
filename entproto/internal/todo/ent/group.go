@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/group"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/group"
 )
 
 // Group is the model entity for the Group schema.

@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entproto"
 )
 
 func TestFromFieldDescriptor(t *testing.T) {

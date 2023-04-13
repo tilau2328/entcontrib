@@ -6,10 +6,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/skipedgeexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/skipedgeexample"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/user"
 )
 
 // SkipEdgeExampleCreate is the builder for creating a SkipEdgeExample entity.

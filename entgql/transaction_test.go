@@ -19,14 +19,14 @@ import (
 	"errors"
 	"testing"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/mocks"
 	"github.com/99designs/gqlgen/client"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/handler/testserver"
 	"github.com/99designs/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/mocks"
 )
 
 func TestTransaction(t *testing.T) {

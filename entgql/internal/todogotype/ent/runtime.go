@@ -19,15 +19,15 @@ package ent
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/category"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/group"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/pet"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/user"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/verysecret"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/category"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/friendship"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/group"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/pet"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/user"
+	"github.com/tilau2328/entcontrib/entgql/internal/todogotype/ent/verysecret"
 )
 
 // The init function reads all schema descriptors with runtime code

@@ -21,10 +21,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todopulid/ent"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/tilau2328/entcontrib/entgql"
+	"github.com/tilau2328/entcontrib/entgql/internal/todo/ent/todo"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent"
+	"github.com/tilau2328/entcontrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 func (r *queryResolver) Node(ctx context.Context, id pulid.ID) (ent.Noder, error) {

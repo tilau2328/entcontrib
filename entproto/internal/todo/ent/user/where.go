@@ -5,11 +5,11 @@ package user
 import (
 	"time"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/internal/todo/ent/schema"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/predicate"
+	"github.com/tilau2328/entcontrib/entproto/internal/todo/ent/schema"
 )
 
 // ID filters vertices based on their ID field.

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/validmessage"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/validmessage"
 )
 
 // ValidMessageCreate is the builder for creating a ValidMessage entity.

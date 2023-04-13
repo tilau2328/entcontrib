@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/blogpost"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/image"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/skipedgeexample"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/blogpost"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/image"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/skipedgeexample"
+	"github.com/tilau2328/entcontrib/entproto/internal/entprototest/ent/user"
 )
 
 // UserCreate is the builder for creating a User entity.

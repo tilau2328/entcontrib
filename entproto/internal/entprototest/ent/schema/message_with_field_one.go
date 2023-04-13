@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
+	"github.com/tilau2328/entcontrib/entproto"
 )
 
 // MessageWithFieldOne holds the schema definition for the MessageWithFieldOne entity.
